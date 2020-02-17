@@ -1,15 +1,22 @@
 from turtle import *
 from tkinter import *
+speed(1)
 
-bottom_radius = input("What should the size of the Bottom Circle be?")
-top_radius = input("What should the size of the Top Circle be?")
-middle_radius = input((Bottom Circle + Top Circle) / 2)
+bottom_radius = int(input("What should the size of the Bottom Circle be?"))
+top_radius = int(input("What should the size of the Top Circle be?"))
+middle_radius = int(bottom_radius/2)
 
-def circ(size):
-    begin_fill()
-    circle(radius)
+
+def circ(radius):
+ circle(radius)
+ left(90)
+ penup()
+ forward(radius*2)
+ pendown()
+ right(90)
+
     
     
-circ(bottom)
-circ(top)
-circ(middle)
+circ(bottom_radius)
+circ(middle_radius)
+circ(top_radius)
