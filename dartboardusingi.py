@@ -2,4 +2,10 @@ from turtle import *
 
 
 for i in range(25,101 ,25):
-    circle(i,)
+    circle(i)
+    right(90)
+    penup()
+    forward(25)
+    pendown()
+    left(90)
+    
