@@ -6,9 +6,13 @@ from tkinter import *
 from turtle import * 
 
 num1 = 5
+num2 = 6
 def add_nums():
-    num2 = 6
+    total = num1+ num2
     print(total)
+    
+   
 add_nums()
-total = num1+ num2
+
+
     

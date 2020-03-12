@@ -21,7 +21,7 @@ def left():
     t.left(90)
 
 def right():
-    t.right(270)
+    t.right(90)
 
 
 root = tk.Tk()
