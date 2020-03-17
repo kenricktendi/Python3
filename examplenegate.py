@@ -3,7 +3,7 @@
 def negate(x):
     return -x
 
-print negate(5)
+print (negate(5))
 
 x = negate(-4)
-print x
+print (x)

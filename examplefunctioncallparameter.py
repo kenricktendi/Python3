@@ -10,4 +10,4 @@ def multiply_by_three(x):
 def my_function(x):
     return add_two(multiply_by_three(x))
 
-print my_function(5)
+print (my_function(5))
