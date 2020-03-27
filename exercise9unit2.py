@@ -1,6 +1,7 @@
 #Kenrick Tendi
 #Exercise 9 unit 2
 
-s = replace_at_index("eggplant", 3)
+def replace_at_index(string, integer):
+    print(string.replace(string[integer],"-"))
 
-print ([-1])
+replace_at_index("eggplant", 3)
